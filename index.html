@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no">
+
+  <title>Calculator</title>
+  <link rel="stylesheet"
+    href="calculator.css" />
+  <link rel="shortcut icon"
+    href="Calculator-icon.png"
+    type="image/png" />
+</head>
+
+<body>
+  <main>
+    <div class="calculator">
+      <div id="screen">
+        <div id="calculation">0</div>
+        <div id="result"></div>
+      </div>
+      <div class="lite-gray"
+        onclick="onClickAc()">AC</div>
+      <div class="lite-gray"
+        onclick="onClickDel()">&#x2190;</div>
+      <div class="lite-gray">%</div>
+      <div class="orange"
+        onclick="onClickOperator(event)">&#247;</div>
+      <div class="dark-gray"
+        onclick="onClickNumber(event)">7</div>
+      <div class="dark-gray"
+        onclick="onClickNumber(event)">8</div>
+      <div class="dark-gray"
+        onclick="onClickNumber(event)">9</div>
+      <div class="orange"
+        onclick="onClickOperator(event)">&#215;</div>
+      <div class="dark-gray"
+        onclick="onClickNumber(event)">4</div>
+      <div class="dark-gray"
+        onclick="onClickNumber(event)">5</div>
+      <div class="dark-gray"
+        onclick="onClickNumber(event)">6</div>
+      <div class="orange"
+        onclick="onClickOperator(event)">-</div>
+      <div class="dark-gray"
+        onclick="onClickNumber(event)">1</div>
+      <div class="dark-gray"
+        onclick="onClickNumber(event)">2</div>
+      <div class="dark-gray"
+        onclick="onClickNumber(event)">3</div>
+      <div class="orange"
+        onclick="onClickOperator(event)">+</div>
+      <!-- <div class="dark-gray">( )</div> -->
+      <div class="dark-gray zero"
+        onclick="onClickNumber(event)">0</div>
+      <div class="dark-gray"
+        onclick="onClickComma()">,</div>
+      <div class="orange"
+        onclick="onClickEquals()">=</div>
+    </div>
+  </main>
+
+  <script type="text/javascript"
+    src="calculator.js"></script>
+
+</body>
+
+</html>
